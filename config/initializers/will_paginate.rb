@@ -15,7 +15,7 @@ module WillPaginate
       super.try :html_safe
     end
 
-    class BootstrapLinkRenderer < LinkRenderer
+    class BootstrapLinkRenderer < ViewHelpers::LinkRenderer
       protected
       
       def html_container(html)
